@@ -1,7 +1,7 @@
 """
 ### Usage: 
 * If `pytest` variable is disabled, `python3 crawler.py input.json` creates `results.json`.
-* With `pytest` enabled, 
+* With `pytest` enabled, input is read from the program file. 
 
 ### Notable libraries:
 * requests: way more convenient than standard urllib.
