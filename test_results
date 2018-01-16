@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.5.2, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
+rootdir: /home/grining/RedPoints, inifile:
+plugins: cov-2.5.1
+collected 8 items
+
+test_crawler.py ........                                                 [100%]
+
+----------- coverage: platform linux, python 3.5.2-final-0 -----------
+Name              Stmts   Miss  Cover
+-------------------------------------
+__init__.py           0      0   100%
+test_crawler.py      95      4    96%
+-------------------------------------
+TOTAL                95      4    96%
+
+
+=========================== 8 passed in 4.31 seconds ===========================
