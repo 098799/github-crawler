@@ -88,7 +88,7 @@ def parseGithub(inputData, extras):
     requestsData["utf8"] = "✓"
 
     # http request with proxy
-    proxies = {'http': 'http://' + choice(inputData["proxies"])}
+    proxies = {'https': 'http://' + choice(inputData["proxies"])}
     page = requests.get(github + "/search", params=requestsData, proxies=proxies)
     soupedPage = BeautifulSoup(page.text, 'html.parser')
 
@@ -120,8 +120,8 @@ def main():
                 "css"
             ],
             "proxies": [
-                "194.126.37.94:8080",
-                "13.78.125.167:8080"
+                "147.135.210.114:54566",
+                "115.146.126.223:8080"
             ],
             "type": "Repositories"
         }
